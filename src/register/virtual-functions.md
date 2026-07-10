@@ -214,6 +214,9 @@ In contrast to virtual methods from OOP languages (C++, C#, Java, Kotlin, PHP, .
     For now, you can work around this by declaring the method with `#[func(gd_self, virtual)]`. The `gd_self` requires the first
     parameter to be of type `Gd<Self>`, which avoids the bind call and thus the borrow.
 
+    See the [page on re-entrancy][book-re-entrancy] for the general pattern behind this, including how `base_mut()`/`reentrant()`
+    let you handle the equivalent situation for engine calls made from Rust.
+
 We are observing how virtual functions are used by the community and plan to mitigate the limitations where possible. If you have any inputs,
 feel free to let us know!
 
@@ -239,3 +242,4 @@ integration layer between the two languages and allows to effortlessly experimen
 [api-class-script]: https://godot-rust.github.io/docs/gdext/master/godot/classes/struct.Script.html
 [api-scriptinstance]: https://godot-rust.github.io/docs/gdext/master/godot/obj/script/trait.ScriptInstance.html
 [godot-csharp]: https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/index.html
+[book-re-entrancy]: ../recipes/borrows.html

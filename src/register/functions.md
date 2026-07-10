@@ -327,6 +327,8 @@ such as `self.base().notify(...)`, which may e.g. call `ready(&mut self)`. The `
 
 When you use `to_gd()`, the borrow checker will treat this as an independent object. If you call `bind_mut()` on it, while inside the class impl,
 you will immediately get a double-borrow panic. Intead, use `to_gd()` to hand out a pointer and don't access until the current method has ended.
+
+See the [dedicated page on re-entrancy][book-re-entrancy] for a deeper look at why this happens and how to structure code around it.
 ```
 
 
@@ -350,5 +352,6 @@ In the next page, we will look into a special kind of functions: constructors.
 [rust-refcell]: https://doc.rust-lang.org/std/cell/struct.RefCell.html
 [rust-mem-drop]: https://doc.rust-lang.org/std/mem/fn.drop.html
 [book-godot-api-functions]: ../godot-api/functions.html#godot-functions
+[book-re-entrancy]: ../recipes/borrows.html
 [api-gd-bind]: https://godot-rust.github.io/docs/gdext/master/godot/prelude/struct.Gd.html#method.bind
 [api-gd-bindmut]: https://godot-rust.github.io/docs/gdext/master/godot/prelude/struct.Gd.html#method.bind_mut

@@ -31,6 +31,7 @@
   - [Export to Web](toolchain/export-web.md)
   - [Export to macOS and iOS](toolchain/export-mac-and-ios.md)
 - [Recipes](recipes/index.md)
+  - [Borrows and re-entrancy](recipes/borrows.md)
   - [Custom resources](recipes/custom-resources.md)
   - [Editor plugins](recipes/editor-plugin/index.md)
     - [Inspector plugins](recipes/editor-plugin/inspector-plugins.md)
