@@ -42,7 +42,7 @@ Games made with godot-rust are available on [a separate page](games.md).
 | 📜 _**Scripting**_                                                             |                                                                          |                                               |
 | **[godot-rust-script]**<br/>Allows Rust scripts to be added to nodes.          |                                                                          | ![godot-rust-script][godot-rust-script-badge] |
 | ___________________________________________________                            |                                                                          |                                               |
-| 🛠️ _**Engine integration**_                                                    |                                                                          |                                               |
+| 🚂 _**Engine integration**_                                                    |                                                                          |                                               |
 | **[godot-bevy]**<br/>Bevy (ECS engine) integration for Godot 4.4+.             |  [crates.io][godot-bevy-crate], [Discord][godot-bevy-discord]             | ![godot-bevy][godot-bevy-badge]               |
 | ___________________________________________________                            |                                                                          |                                               |
 | 🎮 _**Game development**_                                                      |                                                                          |                                               |
