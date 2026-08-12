@@ -37,13 +37,13 @@ Games made with godot-rust are available on [a separate page](games.md).
 | **[gdext-generation]**<br/>Auto-generate the `.gdextension` file.              | [Discord][gdext-generation-discord]                                      | ![gdext-generation][gdext-generation-badge]   |
 | **[godot-rust-cli]**<br/>CLI scripts for Godot with Rust.                      | [Discord][godot-rust-cli-discord]                                        | ![godot-rust-cli][godot-rust-cli-badge]       |
 | **[gdext-cli]**<br/>A CLI tool to generate godot-rust projects and scripts.    |                                                                          | ![gdext-cli][gdext-cli-badge]                 |
-| **[gdenv]**<br/> A CLI tool to install, run, and switch Godot versions.  | [crates.io][gdenv-crate], [Discord][gdenv-discord]                       | ![gdenv][gdenv-badge]                         |
+| **[gdenv]**<br/> A CLI tool to install, run, and switch Godot versions.        | [crates.io][gdenv-crate]                                                 | ![gdenv][gdenv-badge]                         |
 | ___________________________________________________                            |                                                                          |                                               |
 | 📜 _**Scripting**_                                                             |                                                                          |                                               |
 | **[godot-rust-script]**<br/>Allows Rust scripts to be added to nodes.          |                                                                          | ![godot-rust-script][godot-rust-script-badge] |
 | ___________________________________________________                            |                                                                          |                                               |
 | 🚂 _**Engine integration**_                                                    |                                                                          |                                               |
-| **[godot-bevy]**<br/>Bevy (ECS engine) integration for Godot 4.4+.             |  [crates.io][godot-bevy-crate], [Discord][godot-bevy-discord]             | ![godot-bevy][godot-bevy-badge]               |
+| **[godot-bevy]**<br/>Bevy (ECS engine) integration for Godot 4.4+.             |  [crates.io][godot-bevy-crate], [Book][godot-bevy-book]                 | ![godot-bevy][godot-bevy-badge]               |
 | ___________________________________________________                            |                                                                          |                                               |
 | 🎮 _**Game development**_                                                      |                                                                          |                                               |
 | **[SpireTween]**<br/>Alternative tweening library for Godot 4.2+.              | [Discord][spire-tween-discord]                                           | ![SpireTween][spire-tween-badge]              |
@@ -83,7 +83,6 @@ Games made with godot-rust are available on [a separate page](games.md).
 [gdenv]: https://github.com/bytemeadow/gdenv
 [gdenv-crate]: https://crates.io/crates/gdenv
 [gdenv-badge]: https://img.shields.io/github/last-commit/bytemeadow/gdenv
-[gdenv-discord]: https://discord.com/channels/1379465862800736258/1386309085300916336
 
 [gdext-cli]: https://github.com/FrankCasanova/gdext-cli
 [gdext-cli-badge]: https://img.shields.io/github/last-commit/FrankCasanova/gdext-cli
@@ -94,7 +93,7 @@ Games made with godot-rust are available on [a separate page](games.md).
 [godot-bevy]: https://github.com/bytemeadow/godot-bevy
 [godot-bevy-crate]: https://crates.io/crates/godot-bevy
 [godot-bevy-badge]: https://img.shields.io/github/last-commit/bytemeadow/godot-bevy
-[godot-bevy-discord]: https://discord.com/channels/1379465862800736258/1379465863685607466
+[godot-bevy-book]: https://bytemeadow.github.io/godot-bevy-book/
 
 [SpireTween]: https://github.com/Houtamelo/spire_tween
 [spire-tween-discord]: https://discord.com/channels/723850269347283004/1257474308939452477/1257474308939452477
